@@ -9,7 +9,9 @@ class Parser
     /**
      * determine whether a given time falls within the given cron expr
      *
-     * @param string        $frequency
+     * @param string|numeric    $time
+     *      timestamp or strtotime()-compatible string
+     * @param string            $expr
      *      any valid cron expression, in addition supporting:
      *      range: '0-5'
      *      range + interval: '10-59/5'
@@ -27,14 +29,12 @@ class Parser
      *          every day between day 2-10 and day 15-25
      *          every 2nd month between January-June
      *          Monday-Friday
-     * @param string|int    $time
-     *      timestamp or strtotime()-compatible string
      * @throws Exception\InvalidArgumentException on invalid cron expression
      * @return bool
      */
     public static function matchTime($time, $expr)
     {
-        ArgValidator::assert($time, array('string', 'int'));
+        ArgValidator::assert($time, array('string', 'numeric'));
         ArgValidator::assert($expr, 'string');
 
         $cronExpr = preg_split('/\s+/', $expr, null, PREG_SPLIT_NO_EMPTY);

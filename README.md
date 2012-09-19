@@ -11,11 +11,11 @@ Parse cron expressions and match them against time.
 ```json
 {
     "require": {
-        "heartsentwined/cron-expr-parser": "dev-master"
+        "heartsentwined/cron-expr-parser": "1.*"
     }
 }
 ```
 
 # Usage
 
-todo
+Parse in a Cron expression and a time, and determine if the given time falls within the given cron expression
