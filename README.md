@@ -11,7 +11,7 @@ Parse cron expressions and match them against time.
 ```json
 {
     "require": {
-        "heartsentwined/cron-expr-parser": "1.*"
+        "heartsentwined/cron-expr-parser": "dev-master"
     }
 }
 ```
