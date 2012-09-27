@@ -9,9 +9,9 @@ class Parser
     /**
      * determine whether a given time falls within the given cron expr
      *
-     * @param string|numeric    $time
+     * @param string|numeric $time
      *      timestamp or strtotime()-compatible string
-     * @param string            $expr
+     * @param string $expr
      *      any valid cron expression, in addition supporting:
      *      range: '0-5'
      *      range + interval: '10-59/5'
@@ -70,8 +70,8 @@ class Parser
      *
      * @see self::exprToNumeric() for additional valid string values
      *
-     * @param string $expr
-     * @param numeric $num
+     * @param  string                             $expr
+     * @param  numeric                            $num
      * @throws Exception\InvalidArgumentException on invalid expression
      * @return bool
      */
@@ -93,6 +93,7 @@ class Parser
                     return true;
                 }
             }
+
             return false;
         }
 
@@ -193,7 +194,7 @@ class Parser
         );
 
         if (is_numeric($value)) {
-            if (in_array((int)$value, $data, true)) {
+            if (in_array((int) $value, $data, true)) {
                 return $value;
             } else {
                 return false;

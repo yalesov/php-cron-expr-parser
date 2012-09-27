@@ -2,7 +2,6 @@
 namespace Heartsentwined\Test\CronExprParser;
 
 use Heartsentwined\CronExprParser\Parser;
-use Heartsentwined\CronExprParser\Exception;
 
 class ParserTest extends \PHPUnit_Framework_TestCase
 {
