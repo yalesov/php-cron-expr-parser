@@ -194,11 +194,8 @@ class Parser
         );
 
         if (is_numeric($value)) {
-            if (in_array((int) $value, $data, true)) {
-                return $value;
-            } else {
-                return false;
-            }
+            // allow all numerics values, this change fix the bug for minutes range like 0-59 or hour range like 0-20
+            return $value;
         }
 
         if (is_string($value)) {
