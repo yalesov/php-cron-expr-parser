@@ -61,9 +61,11 @@ class ParserTest extends \PHPUnit_Framework_TestCase
     // straight numeric input
     $this->assertSame(1,
       Parser::exprToNumeric(1));
+
+    // this test deprecated by 1975db0, which allows all numeric input
     // invalid numeric input
-    $this->assertSame(false,
-      Parser::exprToNumeric(13));
+    //$this->assertSame(false,
+      //Parser::exprToNumeric(99));
   }
 
   /**
