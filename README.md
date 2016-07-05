@@ -10,9 +10,9 @@ Parse cron expressions and match them against time.
 
 ```json
 {
-    "require": {
-        "yalesov/cron-expr-parser": "2.*"
-    }
+  "require": {
+    "yalesov/cron-expr-parser": "2.*"
+  }
 }
 ```
 
@@ -22,8 +22,8 @@ Parse a Cron expression and a time, and determine if the given time falls within
 
 ```php
 use Yalesov\CronExprParser\Parser;
-$match      = Parse::matchTime('next Thursday', '* * * * 4');
-$notMatch   = Parse::matchTime('next Friday', '* * * * 4');
+$match    = Parse::matchTime('next Thursday', '* * * * 4');
+$notMatch = Parse::matchTime('next Friday', '* * * * 4');
 ```
 
 Function signature:
