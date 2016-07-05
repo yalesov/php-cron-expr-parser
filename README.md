@@ -1,6 +1,6 @@
 # Yalesov\CronExprParser
 
-[![Build Status](https://secure.travis-ci.org/yalesov/cron-expr-parser.png)](http://travis-ci.org/yalesov/cron-expr-parser)
+[![Build Status](https://travis-ci.org/yalesov/php-cron-expr-parser.svg)](https://travis-ci.org/yalesov/php-cron-expr-parser)
 
 Parse cron expressions and match them against time.
 
