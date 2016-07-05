@@ -11,7 +11,7 @@ Parse cron expressions and match them against time.
 ```json
 {
     "require": {
-        "yalesov/cron-expr-parser": "1.*"
+        "yalesov/cron-expr-parser": "2.*"
     }
 }
 ```
