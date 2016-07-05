@@ -1,7 +1,7 @@
 <?php
-namespace Heartsentwined\Test\CronExprParser;
+namespace Yalesov\Test\CronExprParser;
 
-use Heartsentwined\CronExprParser\Parser;
+use Yalesov\CronExprParser\Parser;
 
 class ParserTest extends \PHPUnit_Framework_TestCase
 {

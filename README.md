@@ -1,6 +1,6 @@
-# Heartsentwined\CronExprParser
+# Yalesov\CronExprParser
 
-[![Build Status](https://secure.travis-ci.org/heartsentwined/cron-expr-parser.png)](http://travis-ci.org/heartsentwined/cron-expr-parser)
+[![Build Status](https://secure.travis-ci.org/yalesov/cron-expr-parser.png)](http://travis-ci.org/yalesov/cron-expr-parser)
 
 Parse cron expressions and match them against time.
 
@@ -11,7 +11,7 @@ Parse cron expressions and match them against time.
 ```json
 {
     "require": {
-        "heartsentwined/cron-expr-parser": "1.*"
+        "yalesov/cron-expr-parser": "1.*"
     }
 }
 ```
@@ -21,7 +21,7 @@ Parse cron expressions and match them against time.
 Parse a Cron expression and a time, and determine if the given time falls within the given cron expression.
 
 ```php
-use Heartsentwined\CronExprParser\Parser;
+use Yalesov\CronExprParser\Parser;
 $match      = Parse::matchTime('next Thursday', '* * * * 4');
 $notMatch   = Parse::matchTime('next Friday', '* * * * 4');
 ```

@@ -1,7 +1,7 @@
 <?php
-namespace Heartsentwined\CronExprParser\Exception;
+namespace Yalesov\CronExprParser\Exception;
 
-use Heartsentwined\CronExprParser\ExceptionInterface;
+use Yalesov\CronExprParser\ExceptionInterface;
 
 class InvalidArgumentException
     extends \InvalidArgumentException

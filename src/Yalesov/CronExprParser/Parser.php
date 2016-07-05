@@ -1,8 +1,8 @@
 <?php
-namespace Heartsentwined\CronExprParser;
+namespace Yalesov\CronExprParser;
 
-use Heartsentwined\ArgValidator\ArgValidator;
-use Heartsentwined\CronExprParser\Exception;
+use Yalesov\ArgValidator\ArgValidator;
+use Yalesov\CronExprParser\Exception;
 
 class Parser
 {
