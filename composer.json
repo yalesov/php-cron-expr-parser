@@ -1,31 +1,31 @@
 {
-    "name": "yalesov/cron-expr-parser",
-    "description": "Parse cron expressions and match them against time.",
-    "keywords": ["cron"],
-    "authors": [
-        {
-            "name": "Yulij Andreevich Lesov",
-            "email": "yalesov@gmail.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.3.3",
-        "yalesov/arg-validator": "2.*"
-    },
-    "autoload": {
-        "psr-0": {
-            "Yalesov\\CronExprParser": "src/"
-        }
-    },
-    "license": "ISC",
-    "homepage": "https://github.com/yalesov/php-cron-expr-parser",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/yalesov/php-cron-expr-parser"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/yalesov/php-cron-expr-parser/issues"
+  "name": "yalesov/cron-expr-parser",
+  "description": "Parse cron expressions and match them against time.",
+  "keywords": ["cron"],
+  "authors": [
+    {
+      "name": "Yulij Andreevich Lesov",
+      "email": "yalesov@gmail.com"
     }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "yalesov/arg-validator": "2.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Yalesov\\CronExprParser": "src/"
+    }
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/yalesov/php-cron-expr-parser",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/yalesov/php-cron-expr-parser"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/yalesov/php-cron-expr-parser/issues"
+  }
 }
